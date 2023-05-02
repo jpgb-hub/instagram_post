@@ -14,7 +14,7 @@ body {
 
 .post.imagen{
     width: 100%;
-    flex: auto;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
