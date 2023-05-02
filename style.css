@@ -12,9 +12,11 @@ body {
     font-family: 'Roboto';
 }
 
-.imagen{
+.post.imagen{
     width: 100%;
+    flex: auto;
     align-items: center;
+    justify-content: center;
 }
 
 .fa-bookmark{
