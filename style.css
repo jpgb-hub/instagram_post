@@ -13,14 +13,24 @@ body {
 }
 
 .post.imagen{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+   
 }
 
-.fa-bookmark{
-    display: flex;
-    flex-flow: column wrap;
-    align-content: left;
+.icon_head i:nth-child(1){
+    float:right
 }
+
+.icons {
+    width: 500px;
+    margin: 40px auto;
+    border: 1px;
+    }
+.box .icons i:nth-child(4){
+    float:right
+}
+
+
