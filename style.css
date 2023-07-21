@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Roboto:ital@1&display=swap');
 
 body {
-    background-color:lightgrey;
+    background-color:rgb(226, 226, 226);
 }
 
 header {
@@ -20,13 +20,16 @@ header {
     font-family: 'Roboto';
 }
 
-.imagen img{
-    width: 150px;
-    height: 200px;
-    object-position: center center;
-   
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
 .icon_head i:nth-child(1){
     float:right
 }
@@ -43,7 +46,8 @@ header {
 
 .postheader {
     position: relative;
-    height: 30px; /* ajustar según tus necesidades */
+    height: 30px;
+    padding-bottom: 20px;
 }
 
 .left {
