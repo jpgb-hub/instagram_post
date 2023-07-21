@@ -2,7 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Roboto:ital@1&display=swap');
 
 body {
-    background-color:black;
+    background-color:lightgrey;
+}
+
+header {
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center; 
 }
 
 .post{
@@ -12,9 +20,9 @@ body {
     font-family: 'Roboto';
 }
 
-.post.imagen{
-    width: 500px;
-    height: 400px;
+.imagen img{
+    width: 250px;
+    height: 200px;
     object-fit: cover;
     object-position: center center;
    
