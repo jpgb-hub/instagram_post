@@ -21,9 +21,8 @@ header {
 }
 
 .imagen img{
-    width: 250px;
+    width: 150px;
     height: 200px;
-    object-fit: cover;
     object-position: center center;
    
 }
@@ -36,9 +35,23 @@ header {
     width: 500px;
     margin: 40px auto;
     border: 1px;
-    }
+}
+
 .box .icons i:nth-child(4){
     float:right
 }
 
+.postheader {
+    position: relative;
+    height: 30px; /* ajustar según tus necesidades */
+}
 
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
